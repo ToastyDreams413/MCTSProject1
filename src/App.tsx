@@ -295,7 +295,7 @@ export default function MonteCarloTicTacToePart1() {
 
             <p className="text-xs text-slate-500">{preset.note}</p>
 
-            {/* Coordinate-labeled board */}
+            {/* coordinate-labeled board */}
             <div>
               <div className="grid grid-cols-[auto_repeat(3,1fr)] gap-3 w-max">
                 <div></div>
@@ -314,7 +314,7 @@ export default function MonteCarloTicTacToePart1() {
               </div>
             </div>
 
-            {/* bottom row: Player to move on left, Sims per move on right (slider fills remaining space) */}
+            {/* bottom row */}
             <div className="mt-2 flex flex-wrap items-start gap-6">
               <div className="grid gap-1 shrink-0">
                 <span className="text-xs uppercase tracking-wide text-slate-500">Player to move</span>
@@ -377,7 +377,7 @@ export default function MonteCarloTicTacToePart1() {
               </p>
             )}
 
-            {/* scroll only the list; panel itself stays same height as left */}
+            {/* scroll right panel with scores */}
             <div className="mt-3 grid gap-4 flex-1 overflow-auto">
               {results && moves.map((m) => {
                 const r = results[m];

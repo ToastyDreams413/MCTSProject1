@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import MonteCarloTicTacToePart1 from "./Part1";
 import MonteCarloTicTacToePart2 from "./Part2";
 

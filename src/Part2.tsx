@@ -551,14 +551,6 @@ export default function MonteCarloTicTacToePart2() {
     return arr.length ? Math.max(...arr) : 0;
   }, [root]);
 
-  const phases: Array<{ key: Phase; label: string; color: string }> = [
-    { key: "selection", label: "Selection", color: "bg-sky-500" },
-    { key: "expansion", label: "Expansion", color: "bg-amber-500" },
-    { key: "simulation", label: "Simulation", color: "bg-slate-600" },
-    { key: "backprop", label: "Backpropagation", color: "bg-emerald-600" },
-  ];
-  const isActive = (k: Phase) => phase === k;
-
   return (
     <div className="w-full text-slate-800 p-4 sm:p-6 md:p-8">
       <div className="max-w-5xl mx-auto grid gap-6 md:gap-8">

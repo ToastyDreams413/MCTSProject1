@@ -557,7 +557,7 @@ export default function MonteCarloTicTacToePart2() {
 
         {/* header */}
         <header>
-          <h2 className="text-2xl sm:text-3xl font-bold tracking-tight">Part 2 — Monte Carlo Tree Search (UCT)</h2>
+          <h2 className="text-2xl sm:text-3xl font-bold tracking-tight">Monte Carlo Tree Search with UCT</h2>
           <p className="mt-2 text-sm sm:text-base text-slate-700">
             <strong>What is UCT?</strong> UCT chooses which child to explore with
             <code> UCT = Q + C·√(ln N<sub>parent</sub> / (N<sub>child</sub>+1))</code>. The first term (<code>Q</code>) rewards moves that

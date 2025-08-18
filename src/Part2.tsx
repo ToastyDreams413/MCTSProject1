@@ -782,9 +782,9 @@ export default function MonteCarloTicTacToePart2() {
                 <div className="grid grid-cols-[1fr_auto] items-center gap-3">
                   <input
                     type="range"
-                    min={10}
-                    max={3000}
-                    step={10}
+                    min={1}
+                    max={500}
+                    step={1}
                     value={itersPerRun}
                     onChange={(e) => setItersPerRun(parseInt(e.target.value))}
                     className="w-full"
